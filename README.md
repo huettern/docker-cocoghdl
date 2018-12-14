@@ -21,5 +21,3 @@ docker pull noah95/cocoghdl
 docker tag cocoghdl noah95/cocoghdl
 docker push noah95/cocoghdl
 ```
-
-D

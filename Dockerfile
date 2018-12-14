@@ -13,6 +13,12 @@ COPY install_ghdl_v0.35_llvm.sh /
 RUN chmod +x /install_ghdl_v0.35_llvm.sh && \
   /install_ghdl_v0.35_llvm.sh && \
   rm /install_ghdl_v0.35_llvm.sh
+  
+# Install cocotb
+COPY install_cocotb.sh /
+RUN chmod +x /install_cocotb.sh && \
+  /install_cocotb.sh && \
+  rm /install_cocotb.sh
 
 # Cleanup
 RUN apt-get -y autoremove

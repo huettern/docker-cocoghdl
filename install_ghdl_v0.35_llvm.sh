@@ -28,4 +28,4 @@ make install
 # cleanup
 cd ..
 rm -rf v0.35.tar.gz ghdl-0.35/
-apt-get purge -y gcc gnat clang-3.5 lldb-3.5
+apt-get purge -y gnat clang-3.5 lldb-3.5
